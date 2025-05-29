@@ -1,0 +1,56 @@
+.token-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  min-width: fit-content;
+  position: relative;
+}
+
+.token-selector:hover {
+  transform: translateY(-1px);
+}
+
+.token-selector-sell {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.token-selector-sell:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.token-selector-buy {
+  background: linear-gradient(135deg, #ff007a, #ff6bff);
+  color: #ffffff;
+}
+
+.token-selector-buy:hover {
+  background: linear-gradient(135deg, #e6006d, #e65fe6);
+  box-shadow: 0 8px 25px rgba(255, 0, 122, 0.3);
+}
+
+.token-selector-image {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.token-selector .token-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
